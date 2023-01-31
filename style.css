@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Righteous&family=Zilla+Slab:ital,wght@0,300;0,400;1,300&display=swap');
+body{
+    background-color: #F4D9E7;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Righteous', cursive;
+}
+nav ul{
+    display: flex;
+    background-color: black;
+    color: white;
+    height :45px;
+    list-style-type: none;
+    align-items: center;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 35px;
+    padding: 0 10px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.bottom{
+    display: sticky;
+    background-color: black;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.container{
+    min-height: 78vh;
+    background-color: black;
+    color: white;
+    font-family: 'Zilla Slab', serif;
+    display: flex;
+    margin: 23px auto;
+    width: 82%;
+  
+    border-radius: 10px;
+    padding: 10px;
+    background-image: url('moon-knight-marvel-comics-marvel-superheroes-silhouette-5120x2880-8374\ \(1\).jpg');
+    background-size: 940px 600px;
+}
+.icons{
+    margin-top: 10px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressbar{
+    width: 150vh;
+   cursor: pointer;
+}
+
+.songitem{
+    height: 30px;
+    background-color: white;
+    color: black;
+    display: flex;
+    width: 40vh;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    font-family: 'Zilla Slab', serif;
+
+
+}
+.songitem img{
+    width: 28px;
+    margin: 0 13px;
+    border-radius: 100px;
+}
+.songplaybt{
+    margin-right: 13px;
+}
+.songplaybt i{
+    cursor: pointer;
+}
+.songinfo{
+    position: absolute;
+    left:25vw;
+  
+}
+.songinfogif
+{
+    position: absolute;
+    right:35vw;
+    margin-top: 10px;
+   
+}
+.songinfogif img{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
