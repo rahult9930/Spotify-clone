@@ -56,6 +56,7 @@ nav ul li{
     border-radius: 10px;
     padding: 10px;
     background-image: url('moon-knight-marvel-comics-marvel-superheroes-silhouette-5120x2880-8374\ \(1\).jpg');
+     background-repeat: no-repeat;
     background-size: 940px 600px;
 }
 .icons{
