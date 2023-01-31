@@ -134,4 +134,18 @@ nav ul li{
         left:5%;
       
     }
+    .container{
+        min-height: 78vh;
+        font-family: 'Zilla Slab', serif;
+        display: flex;
+        margin: 23px auto;
+        width: 82%;
+      
+        border-radius: 10px;
+        padding: 10px;
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
   }
